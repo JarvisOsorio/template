@@ -2,6 +2,9 @@
 
 Build native Streamable HTTP MCP servers that charge per call with x402.
 
+> [!WARNING]
+> **Security notice (2026-11-18): forks made before commit `c87bc07` let anyone call paid tools for free.** If your server is based on this template, check whether you're affected and update. See [SECURITY.md](SECURITY.md#2026-11-18-payment-enforcement-could-be-bypassed).
+
 ## Quickstart
 
 Requires Node.js 22 or newer.
